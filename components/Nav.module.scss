@@ -1,0 +1,54 @@
+@import '../styles/base//variables.scss';
+
+.nav {
+  display: flex;
+  flex-direction: column;
+  font-family: $font-primary;
+  font-weight: 300;
+  font-size: 3.5rem;
+  height: 100vh;
+
+  .logo {
+    margin: 0 auto;
+    justify-self: center;
+
+    background: $color-blue;
+    padding: 5rem;
+  }
+
+  a {
+    margin: 1rem;
+    padding: 2rem;
+    background: $color-blue;
+    width: 100%;
+    text-align: center;
+    color: $color-light;
+
+    &:hover {
+      clip-path: polygon(
+        0% 20%,
+        60% 20%,
+        60% 0%,
+        100% 50%,
+        60% 100%,
+        60% 80%,
+        0% 80%
+      );
+      color: $color-light;
+      background-color: lighten($color-blue, 10%);
+      box-shadow: 0px 1px 15px darken(#324192, 20%);
+      transform: skewY(-5deg) scale(1.5) translateX(15%);
+      text-shadow: 1px 1px $color-red;
+      clip-path: polygon(
+        0% 20%,
+        60% 20%,
+        60% 0%,
+        100% 50%,
+        60% 100%,
+        60% 80%,
+        0% 80%
+      );
+      transition: transform 0.2s;
+    }
+  }
+}

@@ -1,6 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
-import styles from '../styles/Home.module.scss'
+import styles from './Nav.module.scss'
 
 export default function Navigation() {
   return (
