@@ -9,7 +9,7 @@ export default function Home() {
     <div className="container">
       <Head>
         <title>Home | Ernesto Sotelo</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicon.png" />
       </Head>
 
       <Navigation />

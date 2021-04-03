@@ -8,7 +8,7 @@ export default function TPACK() {
     <div className="container">
       <Head>
         <title>Projects - TPACK| Ernesto Sotelo</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicon.png" />
       </Head>
 
       <Navigation />
@@ -20,7 +20,23 @@ export default function TPACK() {
           src="/project-tpack.svg"
           alt="Graphic for TPACK project."
         />
-
+        <iframe
+          className="powerpoint"
+          src="https://oitncsu-my.sharepoint.com/personal/esotelo_ncsu_edu/_layouts/15/Doc.aspx?sourcedoc={afc8c519-9da0-485b-974f-9fed9aefab6c}&amp;action=embedview&amp;wdAr=1.7777777777777777"
+          width="962px"
+          height="565px"
+          frameborder="0"
+        >
+          This is an embedded{' '}
+          <a target="_blank" href="https://office.com">
+            Microsoft Office
+          </a>{' '}
+          presentation, powered by{' '}
+          <a target="_blank" href="https://office.com/webapps">
+            Office
+          </a>
+          .
+        </iframe>
         <h2 className={styles.annotationHeader}>Context</h2>
         <p className={styles.annotationBody}>
           Project was completed during an internship at Forest View Elementary

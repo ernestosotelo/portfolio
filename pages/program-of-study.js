@@ -8,7 +8,7 @@ export default function ProgramOfStudy() {
     <div className="container">
       <Head>
         <title>Program of Study| Ernesto Sotelo</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicon.png" />
       </Head>
 
       <Navigation />

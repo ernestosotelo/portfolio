@@ -8,7 +8,7 @@ export default function About() {
     <div className="container">
       <Head>
         <title>About| Ernesto Sotelo</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicon.png" />
       </Head>
 
       <Navigation />

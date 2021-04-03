@@ -8,7 +8,7 @@ export default function BookTalk() {
     <div className="container">
       <Head>
         <title>Projects - TPACK| Ernesto Sotelo</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicon.png" />
       </Head>
 
       <Navigation />
@@ -20,6 +20,24 @@ export default function BookTalk() {
           src="/project-booktalk.svg"
           alt="Graphic for Book Talk Project"
         />
+
+        <iframe
+          className="powerpoint"
+          src="https://oitncsu-my.sharepoint.com/personal/esotelo_ncsu_edu/_layouts/15/Doc.aspx?sourcedoc={d26eb1c9-b32c-49bd-b09c-25743d952b63}&amp;action=embedview&amp;wdAr=1.7777777777777777"
+          width="962px"
+          height="565px"
+          frameborder="0"
+        >
+          This is an embedded{' '}
+          <a target="_blank" href="https://office.com">
+            Microsoft Office
+          </a>{' '}
+          presentation, powered by{' '}
+          <a target="_blank" href="https://office.com/webapps">
+            Office
+          </a>
+          .
+        </iframe>
 
         <h2 className={styles.annotationHeader}>Context</h2>
         <p className={styles.annotationBody}>

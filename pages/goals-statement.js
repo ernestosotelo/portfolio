@@ -8,7 +8,7 @@ export default function GoalsStatement() {
     <div className="container">
       <Head>
         <title>Goals Statement| Ernesto Sotelo</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicon.png" />
       </Head>
 
       <Navigation />

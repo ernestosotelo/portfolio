@@ -8,7 +8,7 @@ export default function Portfolio() {
     <div className="container">
       <Head>
         <title>Portfolio | Ernesto Sotelo</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicon.png" />
       </Head>
 
       <Navigation />

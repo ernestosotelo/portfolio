@@ -93,3 +93,17 @@ h4,
 h5 {
   line-height: 4.5rem;
 }
+
+h1 {
+  padding: 3rem;
+}
+
+.powerpoint,
+.screencast {
+  border: solid 1rem $color-blue;
+  margin: 5rem auto;
+}
+
+.screencast {
+  width: 75%;
+}

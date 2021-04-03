@@ -21,6 +21,17 @@ export default function Tynker() {
           alt="Graphic for the Tynker project."
         />
 
+        <iframe
+          className="powerpoint"
+          width="800"
+          height="500"
+          src="https://www.youtube.com/embed/ivAdEEMaJfw"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+
         <h2 className={styles.annotationHeader}>Context</h2>
         <p className={styles.annotationBody}>
           This project was worked on as part of a class project.

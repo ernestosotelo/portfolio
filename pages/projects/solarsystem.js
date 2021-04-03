@@ -8,7 +8,7 @@ export default function SolarSystem() {
     <div className="container">
       <Head>
         <title>Projects - Solar System| Ernesto Sotelo</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicon.png" />
       </Head>
 
       <Navigation />
@@ -20,6 +20,14 @@ export default function SolarSystem() {
           src="/project-solarsystem.svg"
           alt="Graphic for the Solar System project."
         />
+
+        <iframe
+          className="powerpoint"
+          src="https://ernestosotelo.github.io/solar-system-intro/"
+          allowFullScreen
+          width="900rem"
+          height="500px"
+        ></iframe>
 
         <h2 className={styles.annotationHeader}>Context</h2>
         <p className={styles.annotationBody}>

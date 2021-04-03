@@ -8,7 +8,7 @@ export default function Gamification() {
     <div className="container">
       <Head>
         <title>Projects - Gamification| Ernesto Sotelo</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicon.png" />
       </Head>
 
       <Navigation />
@@ -20,6 +20,14 @@ export default function Gamification() {
           src="/project-gamification.svg"
           alt="Graphic for the Gamification project."
         />
+
+        <iframe
+          className="powerpoint"
+          src="https://ernestosotelo.github.io/gamified-learning-meta-analysis/"
+          allowFullScreen
+          width="900rem"
+          height="500px"
+        ></iframe>
 
         <h2 className={styles.annotationHeader}>Context</h2>
         <p className={styles.annotationBody}>

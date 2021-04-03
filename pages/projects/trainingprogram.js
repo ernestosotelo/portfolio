@@ -8,7 +8,7 @@ export default function TrainingProgram() {
     <div className="container">
       <Head>
         <title>Projects - Training Program| Ernesto Sotelo</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicon.png" />
       </Head>
 
       <Navigation />
@@ -20,6 +20,15 @@ export default function TrainingProgram() {
           src="/project-trainingprogram.svg"
           alt="Graphic for the Training Program project."
         />
+
+        <iframe
+          className="powerpoint"
+          frameborder="0"
+          scrolling="no"
+          width="800"
+          height="640"
+          src="/training_proposal.pdf"
+        ></iframe>
 
         <h2 className={styles.annotationHeader}>Context</h2>
         <p className={styles.annotationBody}>

@@ -8,7 +8,7 @@ export default function HITs() {
     <div className="container">
       <Head>
         <title>Projects - HITs| Ernesto Sotelo</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicon.png" />
       </Head>
 
       <Navigation />
@@ -19,6 +19,12 @@ export default function HITs() {
           className={styles.projectImg}
           src="/project-hits.svg"
           alt="Graphic for the HITs project"
+        />
+
+        <img
+          className="screencast"
+          src="/screencast-CANVAS.gif"
+          alt="Graphic for ScreenCast of Canvas"
         />
 
         <h2 className={styles.annotationHeader}>Context</h2>
