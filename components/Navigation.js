@@ -21,8 +21,8 @@ export default function Navigation() {
       <Link href="/portfolio">
         <a>Portfolio</a>
       </Link>
-
-      {/* <Link href="/contact">
+      {/* 
+      <Link href="/contact">
         <a>Contact</a>
       </Link> */}
     </nav>
