@@ -1,7 +1,7 @@
 import React from 'react'
 import Head from 'next/head'
 import Navigation from '../../components/Navigation'
-import styles from '../../styles/Project.module.scss'
+import styles from './Project.module.scss'
 
 export default function TPACK() {
   return (
