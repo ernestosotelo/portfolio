@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Open+Sans:wght@700;800&display=swap');
+@import './variables.scss';
+@import './queries.scss';
+
+.container {
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: auto 80vw;
+}
+
+body {
+  background: $color-blue;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3 {
+  font-family: $font-header;
+}
+
+h1,
+h2,
+h3,
+p,
+span {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 8rem;
+  color: $color-light;
+  font-weight: 900;
+  margin: 5rem;
+}
+
+.title {
+  font-size: 7rem;
+  color: $color-light;
+  border-bottom: solid 0.5rem $color-blue;
+}
+
+p,
+span {
+  font-family: $font-primary;
+  font-size: 2rem;
+}
+
+a {
+  text-decoration: none;
+  color: $color-red;
+  font-weight: bold;
+  font-family: $font-primary;
+  background: $color-dark;
+  padding: 1rem;
+
+  &:hover {
+    background: $color-blue;
+  }
+}
+
+p {
+  line-height: 4rem;
+}
+
+.main,
+.main-content {
+  border: solid 5rem $color-blue;
+  padding: 3rem;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  background-color: $color-dark;
+}

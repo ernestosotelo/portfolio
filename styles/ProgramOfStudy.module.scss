@@ -1,0 +1,41 @@
+@import './base/variables.scss';
+
+.img {
+  width: 35rem;
+  margin: 5rem auto;
+}
+
+.courseDescription {
+}
+
+.table {
+  border-radius: 2rem;
+
+  th,
+  td {
+    border-radius: 1rem;
+  }
+
+  tr {
+    background: #fadede;
+    &:nth-child(odd) {
+      background: #fdd0d0;
+    }
+  }
+
+  th {
+    font-size: 2rem;
+    font-family: $font-primary;
+    font-weight: bold;
+    background: $color-light;
+    color: $color-dark;
+    padding: 3rem;
+  }
+  td {
+    font-family: $font-primary;
+    font-size: 2.3rem;
+    padding: 1.5rem;
+
+    color: $color-dark;
+  }
+}

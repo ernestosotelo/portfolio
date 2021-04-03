@@ -1,0 +1,95 @@
+@import './base/variables.scss';
+
+.introduction {
+  border: solid 5rem $color-blue;
+  background: $color-dark;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+
+  &_title {
+    letter-spacing: -0.1rem;
+    font-weight: 300;
+    color: $color-light;
+    font-size: 6rem;
+  }
+
+  &_subtitle {
+    font-size: 3rem;
+    color: lighten($color-blue, 80%);
+    background: $color-blue;
+    width: 50%;
+    margin: 0 auto;
+  }
+
+  &_description {
+    width: 70%;
+    color: lighten($color-blue, 70%);
+    font-size: 2.5rem;
+    margin: 2rem auto;
+  }
+}
+
+.nav {
+  display: flex;
+  flex-direction: column;
+  font-family: $font-primary;
+  font-weight: 300;
+  font-size: 3.5rem;
+  height: 100vh;
+
+  .logo {
+    margin: 0 auto;
+    justify-self: center;
+
+    background: $color-blue;
+    padding: 5rem;
+  }
+
+  a {
+    margin: 1rem;
+    padding: 2rem;
+    background: $color-blue;
+    width: 100%;
+    text-align: center;
+    color: $color-light;
+
+    &:hover {
+      clip-path: polygon(
+        0% 20%,
+        60% 20%,
+        60% 0%,
+        100% 50%,
+        60% 100%,
+        60% 80%,
+        0% 80%
+      );
+      color: $color-light;
+      background-color: lighten($color-blue, 10%);
+      box-shadow: 0px 1px 15px darken(#324192, 20%);
+      transform: skewY(-5deg) scale(1.5) translateX(15%);
+      text-shadow: 1px 1px $color-red;
+      clip-path: polygon(
+        0% 20%,
+        60% 20%,
+        60% 0%,
+        100% 50%,
+        60% 100%,
+        60% 80%,
+        0% 80%
+      );
+      transition: transform 0.2s;
+    }
+  }
+}
+
+.grid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  max-width: 800px;
+  margin-top: 3rem;
+}

@@ -1,0 +1,21 @@
+@import './base/variables.scss';
+.statement {
+  color: darken($color-blue, 20%);
+  font-weight: 900;
+  font-size: 3rem;
+  margin: 2rem;
+}
+.content {
+  background: $color-light;
+  padding: 3rem;
+}
+
+.skillsHeader {
+  margin-top: 5rem;
+  font-weight: bold;
+}
+
+.skillsList {
+  padding: 2rem;
+  text-align: left;
+}
