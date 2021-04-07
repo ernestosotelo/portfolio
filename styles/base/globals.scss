@@ -63,7 +63,9 @@ a {
   padding: 1rem;
 
   &:hover {
+    color: $color-light;
     background: $color-blue;
+    transition: background 0.2s;
   }
 }
 

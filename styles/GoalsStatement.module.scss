@@ -21,3 +21,12 @@
   text-align: left;
   font-family: $font-primary;
 }
+
+.projectLink {
+  word-break: keep-all;
+  color: $color-blue;
+  background: none;
+  border-radius: 5rem;
+  padding: 1rem;
+  font-size: 1.8rem;
+}
