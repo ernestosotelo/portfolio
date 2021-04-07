@@ -21,6 +21,17 @@ export default function Navigation() {
       <Link href="/portfolio">
         <a>Portfolio</a>
       </Link>
+      <a
+        className={styles.resumeLink}
+        href="/ernesto-sotelo_resume.pdf"
+        target="_blank"
+      >
+        <img
+          className={styles.resumeIcon}
+          src="/resume-icon.svg"
+          alt="Resume Icon"
+        />
+      </a>
       {/* 
       <Link href="/contact">
         <a>Contact</a>

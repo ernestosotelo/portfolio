@@ -6,6 +6,7 @@
     "es6": true,
     "jest": true,
     "node": true
+    
   },
   "rules": {
     "jsx-a11y/href-no-hash": ["off"],
@@ -23,8 +24,10 @@
         "ignoreUrls": true,
         "ignoreStrings": true,
         "ignoreTemplateLiterals": true,
-        "ignoreRegExpLiterals": true
+        "ignoreRegExpLiterals": true,
+        "endOfLine":"auto"
       }
     ]
   }
+  
 }

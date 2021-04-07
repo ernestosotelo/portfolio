@@ -24,7 +24,7 @@
     text-align: center;
     color: $color-light;
 
-    &:hover {
+    &:hover:not(.resumeLink) {
       clip-path: polygon(
         0% 20%,
         60% 20%,
@@ -48,6 +48,22 @@
         60% 80%,
         0% 80%
       );
+      transition: transform 0.2s;
+    }
+  }
+}
+
+.resume {
+  &Link {
+    width: 25%;
+  }
+
+  &Icon {
+    width: 15rem;
+    box-shadow: 0px 1px 8px darken(#324192, 20%);
+    border: solid 1rem $color-blue;
+    &:hover {
+      transform: scale(1.2) translateX(5%);
       transition: transform 0.2s;
     }
   }
