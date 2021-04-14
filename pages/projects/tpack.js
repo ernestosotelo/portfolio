@@ -15,50 +15,26 @@ export default function TPACK() {
 
       <div className="main-content">
         <h1 className="title">Project Details</h1>
-        <img
-          className={styles.projectImg}
-          src="/project-tpack.svg"
-          alt="Graphic for TPACK project."
-        />
-        <iframe
-          className="powerpoint"
-          src="https://oitncsu-my.sharepoint.com/personal/esotelo_ncsu_edu/_layouts/15/Doc.aspx?sourcedoc={afc8c519-9da0-485b-974f-9fed9aefab6c}&amp;action=embedview&amp;wdAr=1.7777777777777777"
-          width="962px"
-          height="565px"
-          frameborder="0"
-        >
-          This is an embedded{' '}
-          <a target="_blank" href="https://office.com">
-            Microsoft Office
-          </a>{' '}
-          presentation, powered by{' '}
-          <a target="_blank" href="https://office.com/webapps">
-            Office
-          </a>
-          .
-        </iframe>
+        <img className={styles.projectImg} src="/project-tpack.svg" alt="Graphic for TPACK project." />
+        <img src="/tpack.gif" className="screencast" alt="Motion image previewing slideshow" />
         <h2 className={styles.annotationHeader}>Context</h2>
         <p className={styles.annotationBody}>
-          Project was completed during an internship at Forest View Elementary
-          School.
+          Project was completed during an internship at Forest View Elementary School.
         </p>
         <h2 className={styles.annotationHeader}>Conditions</h2>
         <p className={styles.annotationBody}>
           {' '}
-          There was a 2-week time constraint for this project. Content was
-          partially provided and graphics contained in this project are either
-          original, or modified to be better suited for the overall design of
-          the project.
+          There was a 2-week time constraint for this project. Content was partially provided and graphics contained in
+          this project are either original, or modified to be better suited for the overall design of the project.
         </p>
         <h2 className={styles.annotationHeader}>Scope</h2>
         <p className={styles.annotationBody}>
-          This project was utilized as a resource for teachers at Forest View
-          Elementary School.
+          This project was utilized as a resource for teachers at Forest View Elementary School.
         </p>
         <h2 className={styles.annotationHeader}>Role</h2>
         <p className={styles.annotationBody}>
-          Overall, I completed this project on my own, with limited content and
-          resources provided by the technology facilitator at the school.
+          Overall, I completed this project on my own, with limited content and resources provided by the technology
+          facilitator at the school.
         </p>
       </div>
     </div>
